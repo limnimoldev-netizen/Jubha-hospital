@@ -7,34 +7,49 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
-        <div class="container-header">
+        <div class="box-menu">
             <div class="logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="<?php bloginfo('hospital'); ?>">
             </div>
+            
+            <div class="container-header">
 
-
-            <div class="booking">
-               <button class="btn-book">
-                    <a href="#">Book an appointment</a>
-               </button>
-
-               <div class="sign-in" id"">
-                <a href="#">
-                    <i class="fas fa-user-md"></i>
-                </a>
+                <div class="booking">
+                    <button class="btn-book">
+                            <a href="#">
+                                <i class="far fa-calendar-check"></i>
+                            </a>
+                            <a href="#">Book an appointment</a>
+                    </button>
                 </div>
 
+                <div class="sign-in">
+                    <a href="#">
+                        <i class="fas fa-user-md"></i>                        
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+                
             </div>
 
-            
+            </div> 
 
-        </div>    
+        </div>
+         
+        
+        <nav>
             
             <?php wp_nav_menu(['theme_location'=>'primary', 
             'menu_class'     => 'menu',
-        
             ]); ?>
-        </nav>
+              
+        </nav> 
+
+        
+            
+    
     </header>
 
    <main>
