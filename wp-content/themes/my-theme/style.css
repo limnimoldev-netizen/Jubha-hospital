@@ -3,12 +3,10 @@ body{
     font-family: "Public Sans", sans-serif;
 }
 
-/* Footer Styles */
 .site-footer {
-  background-color: #90E0EF;
-  color: #023047;
+    background-color: #A1BC98;
+  color: #fff;
   padding: 60px 0 20px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .footer-container {
@@ -26,21 +24,21 @@ body{
 }
 
 .footer-section strong {
-  color: #023047;
+  color: #fff;
   font-size: 16px;
   margin-bottom: 10px;
   display: inline-block;
 }
 
 .footer-section a {
-  color: #023047;
+  color: #fff   ;
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s;
 }
 
 .footer-section a:hover {
-  color: #00b4d8;
+  color: #778873;
 }
 
 .footer-logo img {
@@ -52,19 +50,19 @@ body{
 .footer-brand {
   font-weight: 600;
   font-size: 18px;
-  color: #023047;
+  color: #fff;
 }
 
 .social-icons a {
   display: inline-block;
   margin-right: 10px;
-  color: #023047;
+  color: #F1F3E0;
   font-size: 18px;
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #00b4d8;
+  color: #778873;
 }
 
 .footer-bottom {
@@ -79,17 +77,16 @@ body{
 }
 
 .footer-links a {
-  color: #023047;
+  color: #fff;
   text-decoration: none;
   margin-left: 20px;
   transition: color 0.3s;
 }
 
 .footer-links a:hover {
-  color: #00b4d8;
+  color: #D2DCB6;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
