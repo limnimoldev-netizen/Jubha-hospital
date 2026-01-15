@@ -1,0 +1,10 @@
+{
+    "workbench.view.showQuietly": {
+        "workbench.panel.output": false
+    },
+    "git-graph.showStatusBarItem": true,
+    "errorLens.statusBarColorsEnabled": true,
+    "problems.showCurrentInStatus": false,
+    "telemetry.editStats.showStatusBar": true,
+    "debug.showInStatusBar": "always"
+}
