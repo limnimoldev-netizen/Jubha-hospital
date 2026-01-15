@@ -17,7 +17,7 @@
 
       <!-- Left Image -->
       <div class="contact-image">
-        <img src="https://i.ibb.co/3Fx8S7W/dental-patient.jpg" alt="Dentist patient">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/profile doll.jpg" alt="Hero Banner">
       </div>
 
       <!-- Right Form -->
@@ -67,9 +67,33 @@
     </div>
   </section>
 
-  <!-- Font Awesome icons -->
+
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
-</html>
+<main id="main-content">
+  <section class="contact-section">
+    <!-- <h2>Contact Us</h2>
+    <p>Welcome to Jubha Hospital. We’re here to help you.</p> -->
 
+    <div class="contact-info">
+      <h1>Map For Location .</h1>
+      <!-- <p><strong>Address:</strong> Phnom Penh, Cambodia</p> -->
+      
+    </div>
+
+<div class="map-container">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.449285142884!2d104.8838144!3d11.5408896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951d5e9b0c9f7%3A0xabcdef123456789!2sJubha%20Hospital!5e0!3m2!1sen!2skh!4v1700000000000!5m2!1sen!2skh"
+    width="100%"
+    height="400"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+  </section>
+</main>
+</html>
 <?php get_footer(); ?>
