@@ -15,7 +15,6 @@
   <section class="contact-section">
     <div class="contact-container">
 
-      <!-- Left Image -->
       <div class="contact-image">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/profile doll.jpg" alt="Hero Banner">
       </div>
