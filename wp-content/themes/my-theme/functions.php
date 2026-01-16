@@ -71,4 +71,5 @@ function my_theme_styles() {
 }
 add_action('wp_enqueue_scripts', 'my_theme_styles');
 ?>
+<?php
 
