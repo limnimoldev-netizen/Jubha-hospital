@@ -255,7 +255,7 @@ header{
 }
 
 header{
-  max-width: 1520px;
+  max-width: 1537px;
   width: 100%;
 }
 
@@ -848,4 +848,78 @@ hero-banner {
   position: absolute;
   top: 92px;
   right: 275px;
+}
+
+
+
+
+
+.page-header h1 {
+    font-size: 40px;
+    color: #565c55;
+    margin: 0;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.message-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    gap: 80px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.page-header {
+    background: #dad7cd;
+    padding: 80px ;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #565c55;
+    margin-bottom: 10px;
+}
+
+.page-header h1 {
+    font-size: 40px;
+    color: #5C6F2B;
+    margin: 0;
+}
+
+.message-card img {
+    justify-content: space-between;
+
+    width: 450px;
+    height: 300px;
+    /* object-fit: cover; */
+    border-radius: 10px;
+}
+
+.message-content {
+    flex: 1;
+}
+
+.message-content h3 {
+    color: #5C6F2B;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.message-content p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.message-card:nth-child(even) {
+    flex-direction: row-reverse;
 }

@@ -5,6 +5,7 @@
         <div class="logo-banner">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/banner-find.png" alt="<?php bloginfo('clinic'); ?>">
         </div>
+        
     </div>
 </section>
 
