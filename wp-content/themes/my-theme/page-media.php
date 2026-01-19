@@ -1,12 +1,5 @@
 <?php get_header(); ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Medical News Portal</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+
 <body>
     <div class="hero-image">
     <img src="https://img.freepik.com/premium-photo/hospital-room-with-beds-sign-that-says-hospital-it_1127442-3010.jpg?semt=ais_hybrid&w=740&q=80" alt="Hospital staff caring for patient">
