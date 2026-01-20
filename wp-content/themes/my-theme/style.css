@@ -1650,10 +1650,6 @@ body {
 }
 
 
-
-
-
-
 .page-header4 {
   padding: 80px ;
   background-color: #F1F3E0;
@@ -1736,8 +1732,7 @@ body {
 
 
 .btn {
-  /* margin-top: 8px; */
-  /* padding: 6px 14px; */
+ 
   text-decoration: none;
   font-size: 14px;
   transition: all 0.3s ease;
@@ -1763,3 +1758,85 @@ body {
 }
 
 
+.hospital-image {
+  margin-left: 168px;
+  width: 973px;
+}
+
+.hospital-image img {
+  width: 118%;
+  height: 420px;
+  border-radius: 8px;
+}
+
+
+
+
+
+.page-header5 {
+  padding: 80px ;
+  background-color: #F1F3E0;
+
+}
+
+.breadcrumb5{
+  font-size: 14px;
+  color: #565c55;
+  margin-bottom: 10px;
+}
+
+.page-header5 h1 {
+  font-size: 40px;
+  color: #5C6F2B;
+  margin: 0;
+}
+
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.summary{
+  margin: 0;
+  margin-bottom: 30px;
+  margin-left: 168px;
+
+}
+
+
+.summary p {
+  line-height: 1.8;
+  max-width: 800px;
+}
+
+.summary h2{
+  color: #2d6a4f;
+}
+
+
+
+.info{
+  margin-bottom: 50px;
+}
+
+.info h2 {
+  margin-bottom: 10px;
+  color: #2d6a4f;
+  margin-left: 168px;
+
+}
+
+
+.info p {
+  margin-bottom: 10px;
+  margin-left: 168px;
+
+}
+
+.map-section iframe {
+  width: 1000px;
+  height: 350px;
+  border: none;
+  margin-left: 255px;
+}
