@@ -542,19 +542,19 @@ header {
 }
 
 /* Hero Banner */
-.hero-banner {
+.big-box {
     background: linear-gradient(rgb(85, 187, 90), rgb(30, 139, 54)),
                 url('../assets/hero-bg.jpg') center/cover no-repeat;
     padding: 100px 20px;
     color: #fff;
 }
 
-.banner-content {
+.ben-content {
     max-width: 1200px;
     margin: auto;
 }
 
-.banner-content h1 {
+.ben-content h1 {
     font-size: 42px;
     margin-bottom: 10px;
 }
@@ -574,7 +574,7 @@ header {
 }
 
 /* Visitor Section */
-.visitor-section {
+.visitor{
     padding: 80px 20px;
     background: #f7fafa;
 }

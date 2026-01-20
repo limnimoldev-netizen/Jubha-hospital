@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<section class="hero-banner">
-  <div class="banner-content">
+<section class="big-box">
+  <div class="ben-content">
     <h1>Inpatient-Side</h1>
     <nav class="breadcrumb">
       <a href="#">Home</a> / 
@@ -11,7 +11,7 @@
   </div>
 </section>
 
-<section class="visitor-section">
+<section class="visitor">
   <div class="visitor-container">
     <div class="visitor-text">
       <h2>Visitor Information</h2>
