@@ -228,6 +228,7 @@ button:hover {
   font-size: 0.95rem;
 }
   
+
 .container{
     margin: 0;
 }
@@ -1862,4 +1863,124 @@ h2 {
   height: 350px;
   border: none;
   margin-left: 255px;
+}
+
+
+.big-box {
+    background: linear-gradient(rgb(85, 187, 90), rgb(30, 139, 54)),
+                url('../assets/hero-bg.jpg') center/cover no-repeat;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.ben-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ben-content h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.breadcrumb a {
+    color: #e0f5f4;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    font-weight: 600;
+}
+
+/* Visitor Section */
+.visitor{
+    padding: 80px 20px;
+    background: #f7fafa;
+}
+
+.visitor-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Text */
+.visitor-text {
+    width: 50%;
+}
+
+.visitor-text h2 {
+    font-size: 32px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.visitor-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.visitor-text li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.visitor-text li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: green;
+    font-weight: bold;
+}
+
+/* Image */
+.visitor-image {
+    width: 50%;
+}
+
+.visitor-image img {
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .visitor-container {
+        flex-direction: column;
+    }
+
+    .visitor-text,
+    .visitor-image {
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 32px;
+    }
+}
+.full-info{
+   max-width: 800px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    margin: auto;
+    text-justify: inter-word;
+    margin-bottom: 20px;
+    
+}
+.full-info strong{
+  color: rgb(26, 146, 26);
 }
