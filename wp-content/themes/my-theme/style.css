@@ -403,8 +403,8 @@ color: #778873;
 
 }
 
-hero-banner {
-  position: relative;
+.hero-banner {
+    position: relative;
 }
 .banner{
   position: absolute;
@@ -501,7 +501,7 @@ hero-banner {
 }
 .doctors-item p{
   font-size: 14px;
-  margin: 0;          
+margin: 0;          
   color: #5C6F2B;
 }
 
@@ -739,6 +739,277 @@ hero-banner {
 .contact-form .btn:hover {
   background-color: #F1F3E0;
 }
+
+
+
+/* out-patient */
+
+:root {
+    --primary-color: #3CA535;
+    --text-color: #333;
+    --bg-light: #f9f9f9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Header */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://verdeprofilo.com/wp-content/uploads/2023/01/1140x600_1840-1.jpg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 0;
+    text-align: left;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.breadcrumb {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.breadcrumb a { color:#1FC713; text-decoration: none; }
+.breadcrumb span { color: #1FC713; }
+
+/* Layout Rows */
+.content-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.content-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-col { flex: 1; }
+.image-col { flex: 1; }
+
+.image-col img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Grid Section */
+.grid-2-col {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: rgb(29, 131, 26);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Booking & Lists */
+.check-list {
+    list-style: none;
+    padding: 0;
+}
+
+.check-list li::before {
+    content: '✓';
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.booking-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.booking-content img {
+    /* width: 150px;
+    border-radius: 5px; */
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.resource-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    background:#679264;
+    color: white;
+    margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .content-row, .content-row.reverse, .grid-2-col, .booking-content {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Featured Card (Top Section) */
+.featured-card {
+  display: flex;
+  background: #A1BC98;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  margin-bottom: 50px;
+}
+
+.featured-image {
+  flex: 1;
+  min-height: 300px;
+}
+
+.featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured-cotent h2 {
+  color: #09a745; /* Teal tone */
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* News Grid (Bottom Section) */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.news-item {
+  background:#A1BC98;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.news-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-info {
+  padding: 20px;
+  flex-grow: 1;
+  color: white;
+}
+
+.category {
+  font-size: 12px;
+  font-weight: bold;
+  color: #154d15;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.news-item h3 {
+  font-size: 18px;
+  color: white;
+  margin: 0 0 15px 0;
+  line-height: 1.4;
+}
+
+/* Links/Buttons */
+.read-more {
+  text-decoration: none;
+  color:#ffffff;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: auto;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.read-more:hover {
+  color: #004d5d;
+  text-decoration: underline;
+}
+.hero-image {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.hero-image img {
+  width: 100%;         
+    height: 200px;         
+    object-fit: cover;    
+    object-position: center; 
+    display: block;    
+}    
+
+@media (max-width: 768px) {
+  .featured-card {
+    flex-direction: column;
+  }
+  
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 
 .find-doctor {
   padding: 40px 20px;
