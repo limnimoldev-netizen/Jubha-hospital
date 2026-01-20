@@ -1,13 +1,11 @@
 <?php get_header(); ?>
-
-<div class="container">
-
+<div class="container0">
 
     <section class="container-hero">
         
-            <div class="hero-banner">
+            <div class="hero-banner0">
                 
-                <div class="logo-banner">
+                <div class="logo-banner0">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/banner.png" alt="<?php bloginfo('clinic'); ?>">
                 </div>
 
@@ -20,14 +18,15 @@
                     specialized treatments, and emergency 
                     care, always <br> focusing on patient health and comfort.</p>
                     
-                    <div class="btn">
-                    <a href="#">Book Now <i class="fas fa-arrow-right"></i></a>
+                    <div class="btn0">
+                        <a href="#">Book Now <i class="fas fa-arrow-right"></i></a>
                     </div>
 
                 </div>
         
             </div>
     </section>
+
     <section class="container-stats">
 
         <div class="stats-box">
