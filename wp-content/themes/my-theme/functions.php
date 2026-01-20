@@ -58,12 +58,7 @@ function mytheme_save_product_meta($post_id){
 }
 add_action('save_post','mytheme_save_product_meta');
 
-// function mytheme_register_menus() {
-//     register_nav_menus([
-//         'sidebar-menu' => 'Sidebar Menu',
-//     ]);
-// }
-// add_action('after_setup_theme', 'mytheme_register_menus');
+
 
 
 function my_theme_styles() {
