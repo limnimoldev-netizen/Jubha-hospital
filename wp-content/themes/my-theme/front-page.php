@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container0"
 
 
     <section class="container-hero">
@@ -13,12 +13,11 @@
 
                 <div class="banner">
                     <h1> 
-                    <span>Transforming Healthcare</span> with <br>Compassion, 
+                    <span>Transforming Healthcare</span> with <br>Compassion 
                     Expertise, and <br>A <span>Patient-First</span> Approach</h1>
                     <p>We provide quality healthcare with modern facilities and <br> experienced staff. Services
                     include general check-ups, <br>
-                    specialized treatments, and emergency 
-                    care, always <br> focusing on patient health and comfort.</p>
+                    care, always  focusing on patient health and comfort.</p>
                     
                     <div class="btn">
                     <a href="#">Book Now <i class="fas fa-arrow-right"></i></a>
@@ -280,18 +279,20 @@
                 <div class="form-group2">
                     <label for="message">Message</label>
                     <input type="text" id="" name="Messages" placeholder="Messages" required>
-
+                    
                 </div>
 
                 <div class="btn-detail">
                     <a href="#">Send Messages</a>
-            </div>
+                </div>
+                
+                
             </form>
 
         </div>
 
     </section>
-
+<br> <br> <br> <br><br>
 </div>
     <?php get_footer(); ?>
 
