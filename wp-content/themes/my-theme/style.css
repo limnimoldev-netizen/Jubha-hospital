@@ -1173,7 +1173,7 @@ body {
 }
 
 .page-header {
-  background: #dad7cd;
+  background: #F1F3E0;
   padding: 80px ;
 }
 
@@ -1868,7 +1868,7 @@ h2 {
 
 .big-box {
     background: linear-gradient(rgb(85, 187, 90), rgb(30, 139, 54)),
-                url('../assets/hero-bg.jpg') center/cover no-repeat;
+    url('../assets/hero-bg.jpg') center/cover no-repeat;
     padding: 100px 20px;
     color: #fff;
 }
@@ -1933,7 +1933,6 @@ h2 {
     margin-bottom: 15px;
     font-size: 16px;
     line-height: 1.6;
-    color: #444;
 }
 
 .visitor-text li::before {
@@ -1952,7 +1951,6 @@ h2 {
 .visitor-image img {
     width: 100%;
     border-radius: 14px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 /* Responsive */
@@ -1974,7 +1972,6 @@ h2 {
    max-width: 800px;
     line-height: 1.8;
     font-size: 16px;
-    color: #333;
     text-align: justify;
     margin: auto;
     text-justify: inter-word;
@@ -1991,8 +1988,7 @@ h2 {
 
 
 .big-box {
-    background: linear-gradient(rgb(85, 187, 90), rgb(30, 139, 54)),
-                url('../assets/hero-bg.jpg') center/cover no-repeat;
+    background-color: #F1F3E0;
     padding: 100px 20px;
     color: #fff;
 }
@@ -2057,7 +2053,6 @@ h2 {
     margin-bottom: 15px;
     font-size: 16px;
     line-height: 1.6;
-    color: #444;
 }
 
 .visitor-text li::before {
@@ -2076,7 +2071,6 @@ h2 {
 .visitor-image img {
     width: 100%;
     border-radius: 14px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 /* Responsive */
@@ -2098,7 +2092,6 @@ h2 {
    max-width: 800px;
     line-height: 1.8;
     font-size: 16px;
-    color: #333;
     text-align: justify;
     margin: auto;
     text-justify: inter-word;
@@ -2107,4 +2100,150 @@ h2 {
 }
 .full-info strong{
   color: rgb(26, 146, 26);
+}
+
+
+.appointment-form {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 8px;
+    background: #f0ead2;
+    font-family: Arial, sans-serif;
+}
+
+.appointment-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+  background-color: #cad3a0;
+
+}
+
+.dob-group select {
+    width: 32%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+button.submit-btn {
+    background-color: #87986a;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button.submit-btn:hover {
+    background-color: #cfe1b9;
+}
+
+
+
+
+
+/* Container */
+.register-container {
+    position: relative;
+    z-index: 1;
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 30px;
+    background:     #f0ead2
+;
+    border-radius: 10px;
+}
+
+/* Form Title */
+.register-form h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-group input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Submit Button */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #87986a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #a0aa8e;
+}
+
+/* Login Link */
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
 }

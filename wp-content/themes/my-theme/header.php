@@ -19,12 +19,12 @@
                             <a href="#">
                                 <i class="far fa-calendar-check"></i>
                             </a>
-                            <a href="#">Book an appointment</a>
+                            <a href="/book-appointment/">Book an appointment</a>
                     </button>
                 </div>
 
                 <div class="sign-in">
-                    <a href="#">
+                    <a href="/patient/">
                         <i class="fas fa-user-md"></i>                        
                     </a>
                     <a href="#">
